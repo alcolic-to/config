@@ -1,0 +1,12 @@
+# ~/.inputrc
+
+# Does this work?
+set show-mode-in-prompt on
+
+# Different cursor shapes for cmd and ins modes.
+set vi-cmd-mode-string "\1\e[2 q\2"
+set vi-ins-mode-string "\1\e[6 q\2"
+
+# By default, delay between switching different cursor shapes (cmd and ins mode) is 500ms, which is too slow.
+# Setting it to 10ms.
+set keyseq-timeout 10
